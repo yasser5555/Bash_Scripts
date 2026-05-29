@@ -1,0 +1,11 @@
+{
+  "name": "./",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "client": "cd client && npm start",
+    "server": "cd server && npx nodemon server.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+     "report": "cd Tools/ && nodemon Report-Generator.js"
+  }
+}
